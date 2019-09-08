@@ -21,24 +21,42 @@ html {
 
 body {
   background-color: #F76C6C;
+  /* background-color: #EDEAE5; */
   font-family: 'Montserrat', sans-serif;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: #F8E9A1;
 }
 
 hr {
   background-color: #F8E9A1 ;
+  /* background-color: #FCE181; */
   height: 2px;
   border-style: none;
   border-color: #F8E9A1 ;
+  /* border-color: #FCE181; */
   border-radius: 4px;
 }
 
 h1, h2, h3, h4 {
   color: #A8D0E6;
+  /* color: #026670; */
+}
+
+h2, h3, h4 {
+  font-size: 22pt;
+  padding-top:5%;
+}
+
+footer {
+  font-size: 12pt;
+  margin-left:-5%;
+  margin-right:-5%;
+}
+
+.header-wrapper {
+  padding-top:5%;
 }
 
 .header-intro p {
@@ -46,44 +64,114 @@ h1, h2, h3, h4 {
   margin-right:5%;
 }
 
+.header-intro h1 {
+  size:20pt;
+}
+
 .App {
   text-align: left;
   color: white;
+  /* color: black; */
   margin-left:5%;
   margin-right:5%;
   font-size:14pt;
 }
 
-.arrow {
-  display: none;
-}
-
 .card {
   background-color: #F76C6C;
+  /* background-color: #EDEAE5; */
   border: none;
   margin-left:-5%;
   margin-right:-5%;
 }
 
+.table-of-contents h2 {
+  font-size: 20pt;
+}
+
+.table-of-contents p {
+  font-size: 14pt;
+}
+
+.table-of-contents a {
+  color: white;
+  text-decoration: none;
+}
+
+.journal-text {
+  font-family: 'Playfair Display', serif;
+}
+
+.middle {
+  text-align:center;
+}
+
 
 
 @media only screen and (min-width:600px) {
+
+  body {
+    margin-left:5%;
+    margin-right:5%;
+  }
+
   a {
-    color: white;
+    color: #F8E9A1;
     text-decoration: none;
+  }
+
+  footer {
+    margin-left:0%;
+    margin-right:0%;
+  }
+
+  .header-wrapper {
+    padding-top:0%;
+  }
+
+  .gbd h2 {
+    padding-top:3%;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  .activities h2 {
+    padding-top:3%;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  .fitness h2 {
+    padding-top:3%;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  .header-wrapper {
+    padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  .card {
+    margin-left:15%;
+    margin-right: 15%;
   }
   
   a:hover {
     color: #A8D0E6;
   }
 
-  .arrow {
-    color: #374785;
-    display:inline;
+  .table-of-contents {
+    padding-bottom: 3%;
   }
 
-  .arrow:hover {
-    color:#A8D0E6;
+  #gbd-2 .card {
+    padding-bottom: 20%;
+  }
+
+  .right {
+    float:right;
   }
 
 }
