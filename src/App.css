@@ -1,33 +1,46 @@
+/*
+  Color palletes:
+    dark purple: #05386B
+    gray: #379683
+    medium green: #5CDB95
+    light green: #8EE4AF
+    super light green: #EDF5E1
+
+*/
+
+
+body {
+  background-color: #5CDB95;
+}
+
+hr {
+  /* background-color: #379683; */
+  background-color: #8EE4AF;
+  height: 2px;
+  border-style: ridge;
+  border-color: #8EE4AF;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  color:#05386B;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  /* color: #EDF5E1; */
+  color: #379683;
+  margin-left:5%;
+  margin-right:5%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+p {
+  padding-left:5%;
+  margin-right:5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+@media only screen and (min-width:600px) {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
