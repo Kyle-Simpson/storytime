@@ -1,46 +1,89 @@
 /*
-  Color palletes:
+  Color pallete 1 (green):
     dark purple: #05386B
     gray: #379683
     medium green: #5CDB95
     light green: #8EE4AF
     super light green: #EDF5E1
 
+  Color Pallete 2 (pink):
+    light yellow: #F8E9A1
+    pink: #F76C6C
+    light blue: #A8D0E6
+    medium blue: #374785
+    dark blue: #24305E
+
 */
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  background-color: #5CDB95;
+  background-color: #F76C6C;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 hr {
-  /* background-color: #379683; */
-  background-color: #8EE4AF;
+  background-color: #F8E9A1 ;
   height: 2px;
-  border-style: ridge;
-  border-color: #8EE4AF;
-  margin: 0;
+  border-style: none;
+  border-color: #F8E9A1 ;
+  border-radius: 4px;
 }
 
 h1, h2, h3, h4 {
-  color:#05386B;
+  color: #A8D0E6;
 }
 
-.App {
-  text-align: left;
-  /* color: #EDF5E1; */
-  color: #379683;
-  margin-left:5%;
-  margin-right:5%;
-}
-
-p {
+.header-intro p {
   padding-left:5%;
   margin-right:5%;
 }
 
+.App {
+  text-align: left;
+  color: white;
+  margin-left:5%;
+  margin-right:5%;
+  font-size:14pt;
+}
+
+.arrow {
+  display: none;
+}
+
+.card {
+  background-color: #F76C6C;
+  border: none;
+  margin-left:-5%;
+  margin-right:-5%;
+}
+
+
 
 @media only screen and (min-width:600px) {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #A8D0E6;
+  }
 
+  .arrow {
+    color: #374785;
+    display:inline;
+  }
+
+  .arrow:hover {
+    color:#A8D0E6;
+  }
 
 }
