@@ -180,7 +180,7 @@ function App() {
                     outlined by a 2.8 mile path (4.5km for the metric squad).  The lake is currently an average of 13ft deep and 30ft deep at maximum,
                     but if you had been in Seattle prior to 1911 it would have been an additional 7ft deep and stretched all the way to the edge of
                     Ravenna Park (another Seattle classic).  I count the time I have spent at Greenlake and in the Greenlake neighborhood as some of the
-                    most valuable time I have spent in Seattle, partially because of the community that Greenlake fosters.  All of the information I now
+                    most valuable I have spent in Seattle, partially because of the community that Greenlake fosters.  All of the information I now
                     know about Greenlake (including the information above) I learned from a series of conversations with hipster baristas, elderly
                     members of a Tai Chi group, professional speed skaters, and homeless fishermen, all of whom call the Greenlake area their home.
                   </CardText>
@@ -191,7 +191,7 @@ function App() {
               <Card style={{ "padding-top": "5%", "padding-bottom": "5%" }}>
                 <CardBody>
                   <CardText>
-                    For a few years now I have also dreamed of calling Greenlake my home, and as of mid-September I do.
+                    For a few years now I have also dreamed of calling Greenlake my home, and as of September I do.
                   </CardText>
                 </CardBody>
               </Card>
@@ -202,10 +202,10 @@ function App() {
                   <CardText>
                     There were a few factors that were really important to me while I was apartment hunting: public transit options, distance to a
                     grocery store, and being in a space that promoted good mental health practices.  The first two factors are easy to assess from an
-                    apartment listing, but the third one is tricky to put your finger on - even in person.  At most of the apartments I toured I had to
+                    apartment listing, but the third one is tricky to put your finger on, even in person.  At most of the apartments I toured I had to
                     make sacrifices on at least one of those three factors.  Did I want a 15 minute walk to a bus or a 20 minute walk to the closest QFC?
                     Did I want to be close to my friends, or did I want to live somewhere with more than 175 square feet of living space?  There were
-                    some buildings where I considered compromising, but in late August I stumbled upon one that I didn’t have to compromise on at all.
+                    some buildings where I considered compromising, but in August I stumbled upon one that I didn’t have to compromise on at all.
                   </CardText>
                 </CardBody>
               </Card>
@@ -276,7 +276,7 @@ function App() {
                 <CardBody>
                   <CardText>
                     As many of you will remember I was not always the lanky beanstalk my new coworkers know me as.  For a while there I was endearingly
-                    known as Baymax (the inflated, white robot from Big Hero 6) but more recently have been recognized as Edward Cullen - though I argue
+                    known as Baymax (the inflated, white robot from Big Hero 6) but more recently have been recognized as Edward Cullen from Twilight - though I argue
                     that I am slightly less pale than sparkle boy.
                   </CardText>
                 </CardBody>
@@ -334,8 +334,8 @@ function App() {
                 <CardBody>
                   <CardText>
                     A lot has happened since I bought that red bike.  In the first month I went from riding 5 miles in a day to riding 20 plus everyday.
-                    I crashed the red bike going over some train tracks and busted up my right side, shoulder to knee, just before my interview at IHME.
-                    I fixed the bike two days later and within a week of the crash did my longest ride to date - 28.6 miles around the North half of Lake
+                    I crashed the red bike going over some train tracks and busted up my right side - shoulder to knee - just before my interview at IHME.
+                    I fixed the bike two days later and within a week of the crash did the 28.6 miles around the North half of Lake
                     Washington.  I am now well on my way to my first 100 mile ride, and am planning to do Seattle-to-Portland when it comes around next
                     July.
                   </CardText>
@@ -346,9 +346,9 @@ function App() {
               <Card style={{ "padding-top": "5%", "padding-bottom": "5%" }}>
                 <CardBody>
                   <CardText>
-                    You may be thinking, “Kyle.  It sounds like you’re only doing leg day.”  And while you’re not entirely wrong, I do make sure to keep
-                    my core and arms strong too.  I’m back on that plank grind (averaging about 5 minutes these days), I’ve started climbing at a couple
-                    different gyms in Seattle, and a month ago was able to do pull-ups for the first time since the second grade.
+                    You may be thinking, “Kyle.  It sounds like you’re only doing leg day.”  And while you’re not entirely wrong, I've made sure to keep
+                    my core and arms strong too.  I’m back on that plank grind (recently up to 5 & 1/2 minutes), I climb at a few gyms in Seattle, and 
+                    a couple months ago was able to do pull-ups for the first time since the second grade.
                   </CardText>
                 </CardBody>
               </Card>
@@ -371,26 +371,40 @@ function App() {
         <div className="epilogue">
           <a id="epilogue"><Fade bottom><h2>Epilogue</h2></Fade></a>
           <Col>
-            <Fade bottom>
-              <Card style={{ "padding-bottom": "5%" }}>
+          <Fade bottom>
+              <Card >
                 <CardBody>
                   <CardText>
-                    Fitness.  Intellectual; mental; physical.  A job that pushes my intellectual capacity, a location that promotes my mental well being,
-                    and hobbies that keep me agile so I can continue to pursue the others.  I’m not sure that at any other time in my life I would have
-                    called myself healthy, but here we are.  Dare I say thriving.
+                    Before graduating I was terrified by the endless void I was staring into.  What happens next?  Who am I outside of academia?  From 
+                    now on is it just "the rest of life"?  How am I supposed to mark the passage of time without exams approaching?  Is literally anyone
+                    else thinking about this?  Of course patience was the only way to answer any of these questions.  Though I didn't expect to have this many 
+                    answers by now.
                 </CardText>
                 </CardBody>
               </Card>
             </Fade>
+            <Fade bottom><p className="ellipses">• • •</p></Fade>
             <Fade bottom>
-              <Card style={{ "padding-top": "5%", "padding-bottom": "5%" }}>
+              <Card >
+                <CardBody>
+                  <CardText>
+                    Fitness.  Intellectual; mental; physical.  A job that pushes my intellectual capacity, a location that promotes my mental well being,
+                    and hobbies that keep me agile so I can continue to pursue the others.  I’m not sure that at any other time in my life I would have
+                    called myself healthy, but here we are.  Living well.
+                  </CardText>
+                </CardBody>
+              </Card>
+            </Fade>
+            <Fade bottom><p className="ellipses">• • •</p></Fade>
+            <Fade bottom>
+              <Card style={{ "padding-bottom": "5%" }}>
                 <CardBody>
                   <CardText>
                     I want to take just one more minute of your time to say thank you for listening to my stories.
                     I have a lot of fun writing, designing, and building these websites, and it means a lot that you stopped by to hang out.
-                    Catch you later.
+                    Big love,
                 </CardText>
-                  <br></br><br></br>
+                  <br></br>
                   <CardText className="middle">- Kyle -</CardText>
                 </CardBody>
               </Card>

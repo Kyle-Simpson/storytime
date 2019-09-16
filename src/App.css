@@ -99,11 +99,20 @@ footer {
 }
 
 .journal-text {
+  padding-left:5%;
+  margin-right:5%;
   font-family: 'Playfair Display', serif;
+  text-align: right;
 }
 
 .middle {
   text-align:center;
+}
+
+.ellipses {
+  text-align:center;
+  color: black;
+  font-size: 30pt;
 }
 
 
