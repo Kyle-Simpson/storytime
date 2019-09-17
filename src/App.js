@@ -67,7 +67,7 @@ function App() {
                   <CardText>
                     As many of you know or remember from the last edition of “What’s on Kyle’s mind”, since January I have been on the hunt for a
                     post-graduation job that does something tech related for an organization whose sole purpose is to positively contribute to human
-                    existence. In the meantime, I have found one such job at the Institute for Health Metrics and Evaluation (<a href="http://healthdata.org" target="_blank">IHME</a>) as a data analyst
+                    existence. Since then, I have found one such job at the Institute for Health Metrics and Evaluation (<a href="http://healthdata.org" target="_blank">IHME</a>) as a data analyst
                       / research consultant.
                 </CardText>
                 </CardBody>
@@ -78,7 +78,7 @@ function App() {
                 <CardBody>
                   <CardText>
                     In my role I work on a team called Surge that functions a lot like special ops. The mission is always to join a team,
-                    learn the information that is necessary for exactly what I’m doing, execute, and switch teams - usually all in the span
+                    learn the information that is necessary for exactly what I’m doing, execute, and then switch teams - usually all within the span
                     of 3 weeks.
                   </CardText>
                 </CardBody>
@@ -90,8 +90,8 @@ function App() {
                   <CardText>
                     You can imagine that this isn’t the most relaxing first job. The expectation is always perfection, and success is measured by a
                     binary outcome - will <a href="http://thelancet.com" target="_blank">The Lancet</a> accept this paper as one of the 5% of submissions that are published, or will they reject it? Will
-                      policymakers all over the world feel confident enough in our results to utilize them, or will they go in one ear and out the other?
-                      Real casual work conditions ya know?
+                    policymakers all over the world feel confident enough in our results to utilize them, or will they go in one ear and out the other?
+                    Real casual work conditions ya know?
                   </CardText>
                 </CardBody>
               </Card>
@@ -100,9 +100,9 @@ function App() {
               <Card style={{ "padding-top": "5%", "padding-bottom": "5%" }}>
                 <CardBody>
                   <CardText>
-                    In the two months I’ve been at IHME, the learning curve has been immense.  After a basic, three-day training and orientation
-                    I was immediately thrown into my first assignment where I not only needed to understand PhD-level economics, but needed to be
-                    versed enough to write code executing these concepts in a programming language I had never heard of.  On my seventh day on the
+                    In the three months I’ve been at IHME, the learning curve has been immense.  After a basic, three-day orientation
+                    I was immediately thrown into my first assignment where I was greeted by a room of the world's leading Health Economists and
+                    I was supposed to be the expert on a programming language I had never heard of.  On my seventh day on the
                     job I was asked to implement a Spatiotemporal Gaussian Process Regression (ST-GPR) model on a 900,000 row by 56 column data set
                     received directly from the Bill & Melinda Gates Foundation, still in that programming language I was only starting to understand.
                     “Yikes” was my first response to that request.
