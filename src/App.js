@@ -377,7 +377,7 @@ function App() {
                   <CardText>
                     Before graduating I was terrified by the endless void I was staring into.  What happens next?  Who am I outside of academia?  From 
                     now on is it just "the rest of life"?  How am I supposed to mark the passage of time without exams approaching?  Is literally anyone
-                    else thinking about this?  Of course patience was the only way to answer any of these questions.  Though I didn't expect to have this many 
+                    else thinking about this?  Of course patience was the only way to answer any of these questions - though I didn't expect to have this many 
                     answers by now.
                 </CardText>
                 </CardBody>
