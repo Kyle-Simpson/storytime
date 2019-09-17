@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32653cb87d586f500f59c5abb23cd6da",
+    "revision": "7986e24ee957da7251282b6507f37491",
     "url": "/storytime/index.html"
   },
   {
-    "revision": "25dba91a4dc53092dc83",
+    "revision": "0774d9df9aaa98b903de",
     "url": "/storytime/static/css/main.475d375c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/storytime/static/js/2.16d8c645.chunk.js"
   },
   {
-    "revision": "25dba91a4dc53092dc83",
-    "url": "/storytime/static/js/main.acd66328.chunk.js"
+    "revision": "0774d9df9aaa98b903de",
+    "url": "/storytime/static/js/main.2bc859e1.chunk.js"
   },
   {
     "revision": "a43955ca8ff061b32558",
