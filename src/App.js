@@ -101,12 +101,27 @@ function App() {
                 <CardBody>
                   <CardText>
                     In the three months I’ve been at IHME, the learning curve has been immense.  After a basic, three-day orientation
-                    I was immediately thrown into my first assignment where I was greeted by a room of the world's leading Health Economists and
-                    I was supposed to be the expert on a programming language I had never heard of.  On my seventh day on the
+                    I was immediately thrown into my first assignment where I entered into a room full of the world's leading Health Economists who 
+                    expected me to be an expert on a programming language I had never heard of.  On my seventh day on the
                     job I was asked to implement a Spatiotemporal Gaussian Process Regression (ST-GPR) model on a 900,000 row by 56 column data set
                     received directly from the Bill & Melinda Gates Foundation, still in that programming language I was only starting to understand.
                     “Yikes” was my first response to that request.
                   </CardText>
+                </CardBody>
+              </Card>
+            </Fade>
+            <Fade bottom>
+              <Card style={{ "padding-bottom": "5%" }}>
+                <CardBody>
+                  <CardText>
+                    The content of my days varies significantly depending on the team I'm with at the time, but most follow a similar structure.  
+                    I usually spend the morning emailing back and forth with international collaborators while they're still awake in their respective time zones 
+                    (most recently with the Director of Results & Evaluation from the Norwegian Ministry of Health).  In the early afternoon I will have a series of
+                    meetings with the team I'm working with to discuss improvements to whichever disease modeling algorithm we're working on.  Mid-afternoon I'll take
+                    a break to plank (yes I do mean the core exercise, plank), and before I leave for the day I will send my edited code off to our cloud 
+                    infrastructure to run overnight.  Though relatively similarly structured, the work days are usually an all-out sprint for the 
+                    distance of a half-marathon, but ya boi is learning to enjoy running.
+                </CardText>
                 </CardBody>
               </Card>
             </Fade>
