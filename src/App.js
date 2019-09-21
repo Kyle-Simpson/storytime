@@ -101,7 +101,7 @@ function App() {
                 <CardBody>
                   <CardText>
                     In the three months I’ve been at IHME, the learning curve has been immense.  After a basic, three-day orientation
-                    I was immediately thrown into my first assignment where I entered into a room full of the world's leading Health Economists who 
+                    I was immediately thrown into my first assignment where I entered into a room full of the world's leading Health Economists who
                     expected me to be an expert on a programming language I had never heard of.  On my seventh day on the
                     job I was asked to implement a Spatiotemporal Gaussian Process Regression (ST-GPR) model on a 900,000 row by 56 column data set
                     received directly from the Bill & Melinda Gates Foundation, still in that programming language I was only starting to understand.
@@ -111,15 +111,15 @@ function App() {
               </Card>
             </Fade>
             <Fade bottom>
-              <Card style={{ "padding-bottom": "5%" }}>
+              <Card style={{ "padding-top": "5%", "padding-bottom": "5%" }}>
                 <CardBody>
                   <CardText>
-                    The content of my days varies significantly depending on the team I'm with at the time, but most follow a similar structure.  
-                    I usually spend the morning emailing back and forth with international collaborators while they're still awake in their respective time zones 
+                    The content of my days varies significantly depending on the team I'm with at the time, but most follow a similar structure.
+                    I usually spend the morning emailing back and forth with international collaborators while they're still awake in their respective time zones
                     (most recently with the Director of Results & Evaluation from the Norwegian Ministry of Health).  In the early afternoon I will have a series of
                     meetings with the team I'm working with to discuss improvements to whichever disease modeling algorithm we're working on.  Mid-afternoon I'll take
-                    a break to plank (yes I do mean the core exercise, plank), and before I leave for the day I will send my edited code off to our cloud 
-                    infrastructure to run overnight.  Though relatively similarly structured, the work days are usually an all-out sprint for the 
+                    a break to plank (yes I do mean the core exercise, plank), and before I leave for the day I will send my edited code off to our cloud computing
+                    infrastructure to run overnight.  Though they are pretty similarly structured, my work days are usually an all-out sprint for the
                     distance of a half-marathon, but ya boi is learning to enjoy running.
                 </CardText>
                 </CardBody>
@@ -302,8 +302,8 @@ function App() {
                 <CardBody>
                   <CardText>
                     Shortly before exiting the University of Washington I bought a comically small, super cheap, entirely red, single-speed bicycle
-                    from a friend in hopes that I could explore a new hobby.  Something I was (and am) incredibly worried about post-graduation is
-                    figuring out what makes me happy outside the workplace, and I thought biking might be it.
+                    from a friend in hopes that I could explore a new hobby.  Something I was (and am) worried about post-graduation is
+                    figuring out what makes me happy outside the workplace, so I thought I would give cycling a shot.
                   </CardText>
                 </CardBody>
               </Card>
@@ -362,7 +362,7 @@ function App() {
                 <CardBody>
                   <CardText>
                     You may be thinking, “Kyle.  It sounds like you’re only doing leg day.”  And while you’re not entirely wrong, I've made sure to keep
-                    my core and arms strong too.  I’m back on that plank grind (recently up to 5 & 1/2 minutes), I climb at a few gyms in Seattle, and 
+                    my core and arms strong too.  Like I mentioned, I’m back on that plank grind (recently up to 5 & 1/2 minutes), I climb at a few gyms in Seattle, and
                     a couple months ago was able to do pull-ups for the first time since the second grade.
                   </CardText>
                 </CardBody>
@@ -372,8 +372,9 @@ function App() {
               <Card style={{ "padding-top": "5%", "padding-bottom": "5%" }}>
                 <CardBody>
                   <CardText>
-                    Having been a skinny boi for a year it was probably time to gain back a little weight.  Though loose skin hanging in unflattering
-                    places will always be a part of my life, I’m happy to be getting to a place where my quads are blocking out the haters.
+                    Having been a skinny boi for a year it was probably time to gain back a little weight - though I was hesitant initially.  I'm learning that
+                    loose skin hanging in unflattering places may always be a part of my life, but recently I've been happy to fill some of that space with lean muscle.
+                    With summer now coming to a close, it's time to start working towards a hot boy future.
                   </CardText>
                 </CardBody>
               </Card>
@@ -386,15 +387,14 @@ function App() {
         <div className="epilogue">
           <a id="epilogue"><Fade bottom><h2>Epilogue</h2></Fade></a>
           <Col>
-          <Fade bottom>
-              <Card >
+            <Fade bottom>
+              <Card>
                 <CardBody>
                   <CardText>
-                    Before graduating I was terrified by the endless void I was staring into.  What happens next?  Who am I outside of academia?  From 
-                    now on is it just "the rest of life"?  How am I supposed to mark the passage of time without exams approaching?  Is literally anyone
-                    else thinking about this?  Of course patience was the only way to answer any of these questions - though I didn't expect to have this many 
-                    answers by now.
-                </CardText>
+                    A promise kept is an investment returned.  For years I have worked unwaveringly to uphold the promises I made
+                    long ago, a few of which came to fruition this summer.  There are many more still accruing interest and I'm in no
+                    rush to divest.  I have always been playing the long game.  This is just the beginning.
+                  </CardText>
                 </CardBody>
               </Card>
             </Fade>
@@ -403,7 +403,7 @@ function App() {
               <Card >
                 <CardBody>
                   <CardText>
-                    Fitness.  Intellectual; mental; physical.  A job that pushes my intellectual capacity, a location that promotes my mental well being,
+                    Fitness.  Intellectual; mental; physical.  A job that stretches my intellectual capacity, a location that promotes my mental well being,
                     and hobbies that keep me agile so I can continue to pursue the others.  I’m not sure that at any other time in my life I would have
                     called myself healthy, but here we are.  Living well.
                   </CardText>
@@ -417,7 +417,7 @@ function App() {
                   <CardText>
                     I want to take just one more minute of your time to say thank you for listening to my stories.
                     I have a lot of fun writing, designing, and building these websites, and it means a lot that you stopped by to hang out.
-                    Big love,
+                    Catch you later,
                 </CardText>
                   <br></br>
                   <CardText className="middle">- Kyle -</CardText>
