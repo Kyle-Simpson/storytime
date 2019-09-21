@@ -55,7 +55,7 @@ function App() {
 
       </div>
 
-      <hr></hr>
+      <Fade right><hr></hr></Fade>
 
       <div className="content-wrapper">
         <div className="gbd">
@@ -117,10 +117,10 @@ function App() {
                     The content of my days varies significantly depending on the team I'm with at the time, but most follow a similar structure.
                     I usually spend the morning emailing back and forth with international collaborators while they're still awake in their respective time zones
                     (most recently with the Director of Results & Evaluation from the Norwegian Ministry of Health).  In the early afternoon I will have a series of
-                    meetings with the team I'm working with to discuss improvements to whichever disease modeling algorithm we're working on.  Mid-afternoon I'll take
+                    meetings to discuss improvements on whichever disease modeling algorithm I'm working on.  Mid-afternoon I'll take
                     a break to plank (yes I do mean the core exercise, plank), and before I leave for the day I will send my edited code off to our cloud computing
-                    infrastructure to run overnight.  Though they are pretty similarly structured, my work days are usually an all-out sprint for the
-                    distance of a half-marathon, but ya boi is learning to enjoy running.
+                    infrastructure to run overnight.  Though they are usually similarly structured, my work days are an all-out sprint for the
+                    distance of a half-marathon, so ya boi is learning to enjoy running.
                 </CardText>
                 </CardBody>
               </Card>
@@ -162,7 +162,7 @@ function App() {
 
         </div>
 
-        <hr></hr>
+        <Fade right><hr></hr></Fade>
 
         <div className="activities">
           <a id="activities"><Fade bottom><h2>So Much Room for Activities</h2></Fade></a>
@@ -272,7 +272,7 @@ function App() {
           </Col>
         </div>
 
-        <hr></hr>
+        <Fade right><hr></hr></Fade>
 
         <div className="fitness">
           <a id="fitness"><Fade bottom><h2>Hot Boy Future</h2></Fade></a>
@@ -382,7 +382,7 @@ function App() {
           </Col>
         </div>
 
-        <hr></hr>
+        <Fade right><hr></hr></Fade>
 
         <div className="epilogue">
           <a id="epilogue"><Fade bottom><h2>Epilogue</h2></Fade></a>
@@ -427,11 +427,13 @@ function App() {
           </Col>
         </div>
         <div>
+          <Fade right>
           <footer>
             © 2019 Copyright&nbsp;
             <a href="https://www.linkedin.com/in/kyle-e-simpson/" target="_blank">Kyle Simpson</a> &nbsp;&nbsp;
             <a className="right" target="_blank" href="http://twitter.com/kyle_e_simpson">@kyle_e_simpson</a>
           </footer>
+          </Fade>
         </div>
       </div>
     </div>
