@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ce4a190e40b79a228cb4b14f23b1b88",
+    "revision": "a4da675f313ec9cc19a958d3f1c55bf4",
     "url": "/storytime/index.html"
   },
   {
